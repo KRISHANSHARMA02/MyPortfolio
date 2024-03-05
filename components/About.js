@@ -4,7 +4,7 @@ const About = () => {
   return (
     <div
       name="about"
-      className="w-full h-screen font-raleway bg-gradient-to-b from-gray-800 to-black text-white"
+      className="w-full h-screen font-raleway bg-gradient-to-b from-gray-800 to-black text-white min-[600px] h-auto" 
     >
       <div className="max-w-screen-lg p-4 mx-auto flex flex-col justify-center w-full h-full">
         <div className="pb-8">
@@ -13,7 +13,7 @@ const About = () => {
           </p>
         </div>
 
-        <p className="text-xl mt-20">
+        <p className="text-xl mt-20 min-[600px] mt-0">
           Greetings! I'm Krishan Sharma, a recent Post graduate and aspiring web
           developer with a strong foundation in front-end technologies. My
           expertise lies in React JS, where I've demonstrated advanced skills in
