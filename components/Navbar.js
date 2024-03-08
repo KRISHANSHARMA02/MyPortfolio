@@ -29,7 +29,7 @@ const navbar = () => {
   ];
 
   return (
-    <div className="flex justify-between items-center font-raleway w-full h-20 px-4 text-white bg-black fixed">
+    <div className="flex justify-between items-center z-20 font-raleway w-full h-20 px-4 text-white bg-black fixed">
       <div>
         <h1 className=" font-logo ml-2 text-2xl sm:text-5xl">Krishan Sharma</h1>
       </div>

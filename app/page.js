@@ -9,6 +9,7 @@ import Projects from '@/components/Projects';
 import Contact from '@/components/Contact';
 import Uparrow from '@/components/Uparrow';
 import Footer from '@/components/Footer';
+import Sociallinks2 from '@/components/Sociallinks2';
 
 
 const page = () => {
@@ -17,6 +18,7 @@ const page = () => {
       <Navbar />
       <Home />
       <Sociallinks />
+      <Sociallinks2 />
       <About />
       <Projects />
       <Skills />
