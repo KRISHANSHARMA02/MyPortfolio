@@ -16,7 +16,8 @@ module.exports = {
     },
     fontFamily :{
            logo: ["Great Vibes","cursive"],
-           raleway: ["Raleway", "sans-serif"]
+           raleway: ["Raleway", "sans-serif"],
+          
 
     }
   },

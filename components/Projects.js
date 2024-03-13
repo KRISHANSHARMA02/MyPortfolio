@@ -53,8 +53,8 @@ const Projects = () => {
          <div key={id} class="w-64 h-72 rounded-md relative cursor-pointer transition-all ease-in-out duration-500 transform hover:scale-110 sm:w-80 sm:h-80">
          <div  class="group relative w-full h-full rounded-md">
            <Image src={src} alt='' class="w-full h-full object-cover object-bottom rounded-md transition-all ease-in-out duration-500 group-hover:opacity-50"/>
-           <button class="absolute left-[15%] top-1/2 font-raleway text-lg border-[1px] rounded-3xl p-2 pl-7 pr-7 bg-gradient-to-r from-sky-900 to-indigo-900 transition-all transform ease-in-out opacity-0 -translate-x-16 duration-300 group-hover:translate-x-1 group-hover:opacity-100"><a href={href} target=' '>View</a></button>
-           <button class="absolute right-[15%] top-1/2 font-raleway text-lg border-[1px] rounded-3xl p-2 pl-7 pr-7 bg-gradient-to-r from-sky-900 to-indigo-900 transition-all transform ease-in-out opacity-0 translate-x-16 duration-300 group-hover:-translate-x-1 group-hover:opacity-100"><a href={href2} target=' '> Code </a></button>
+           <button class="absolute left-[15%] top-1/2 font-raleway text-lg border-[1px] rounded-3xl p-1 sm:p-2 sm:pl-7 sm:pr-7 pl-4 pr-4 bg-gradient-to-r from-sky-900 to-indigo-900 transition-all transform ease-in-out opacity-0 -translate-x-16 duration-300 sm: group-hover:translate-x-1 group-hover:opacity-100"><a href={href} target=' '>View</a></button>
+           <button class="absolute right-[15%] top-1/2 font-raleway text-lg border-[1px] rounded-3xl p-1 sm:p-2  sm:pl-7 sm:pr-7 bg-gradient-to-r from-sky-900 to-indigo-900 transition-all transform ease-in-out opacity-0 translate-x-16 duration-300 group-hover:-translate-x-1 pl-4 pr-4 group-hover:opacity-100"><a href={href2} target=' '> Code </a></button>
          </div>
          
        </div>
